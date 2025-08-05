@@ -7,7 +7,33 @@ A robust, pandas-native algorithmic trading framework for Indian stocks (NSE Nif
 - 🤖 **ML-powered price prediction:** Decision Tree & Logistic Regression  
 - 🔗 **Backtest any rule-based strategy**  
 - 📢 **Smart alerts via Google Sheets and Telegram (optional)**  
-- 📝 **Elegant summaries, logs, trade logs ready for reporting**  
+- 📝 **Elegant summaries, logs, trade logs ready for reporting**
+
+##✅ **Algo-Trading System Overview** 
+**1)📥 Data Ingestion**
+-Fetches stock data (e.g., RELIANCE.NS) from Yahoo Finance
+-Adds technical indicators like RSI, MACD, SMA, EMA, Bollinger Bands
+**2)📊 Strategy Logic**
+-Buy: RSI < 30 and MA_20 > MA_50
+-Sell: RSI > 70 or MA_20 < MA_50
+-Generates signals and calculates profit/loss using backtesting
+
+**3)🤖 Machine Learning**
+-Uses indicators to predict if price will go up/down tomorrow
+-Trains Decision Tree / Logistic Regression
+-Outputs accuracy and prediction with confidence
+
+**4)📈 Output Summary**
+-Total trades, win ratio, returns, model accuracy, current signals
+-Can be printed in console or exported to JSON / Google Sheets format
+
+**5)🔔 Alert System**
+-Plays a beep sound if:
+-Accuracy < 50%, win rate = 0%, negative return, or oversold SELL
+
+**6)🎯 Execution (quick_demo)**
+-Runs the full pipeline for a few NIFTY 50 stocks
+-Saves results, shows performance, and triggers alerts
 
 ---
 
