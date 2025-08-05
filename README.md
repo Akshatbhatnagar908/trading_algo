@@ -37,6 +37,19 @@ A robust, pandas-native algorithmic trading framework for Indian stocks (NSE Nif
 -Runs the full pipeline for a few NIFTY 50 stocks
 -Saves results, shows performance, and triggers alerts
 
+**code flow:**
+
+1)We first import all the required libraries — like pandas for data analysis, gspread to connect with Google Sheets, and playsound for alerts.
+
+2)We then connect to Google Sheets using service account credentials.
+
+3)Next, we load our stock data — this could be a CSV or real-time API.
+
+4)We calculate the moving averages and generate the signal based on the latest row.
+
+5)The result is printed in the console, logged into Google Sheets, and if it’s a BUY or SELL — an alert sound is played.
+And finally, the script waits for one minute and runs again — checking for new signals
+
 ---
 
 ## 🎯 Features
