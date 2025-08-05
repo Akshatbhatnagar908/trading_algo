@@ -9,10 +9,12 @@ A robust, pandas-native algorithmic trading framework for Indian stocks (NSE Nif
 - 📢 **Smart alerts via Google Sheets and Telegram (optional)**  
 - 📝 **Elegant summaries, logs, trade logs ready for reporting**
 
-##✅ **Algo-Trading System Overview** 
+✅ **Algo-Trading System Overview**
+
 **1)📥 Data Ingestion**
 -Fetches stock data (e.g., RELIANCE.NS) from Yahoo Finance
 -Adds technical indicators like RSI, MACD, SMA, EMA, Bollinger Bands
+
 **2)📊 Strategy Logic**
 -Buy: RSI < 30 and MA_20 > MA_50
 -Sell: RSI > 70 or MA_20 < MA_50
