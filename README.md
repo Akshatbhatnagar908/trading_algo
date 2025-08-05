@@ -1,9 +1,9 @@
 # 🚀 Algo-Trading System (NSE, Nifty50)  
-**ML Automation | Backtesting | No TA-Lib | Google Sheets/Telegram Ready**
+**ML Automation | Backtesting | Google Sheets/Telegram Ready**
 
 A robust, pandas-native algorithmic trading framework for Indian stocks (NSE Nifty50):
 
-- 📈 **Quantitative technical analysis:** All major indicators, no TA-Lib!  
+- 📈 **Quantitative technical analysis:** All major indicators
 - 🤖 **ML-powered price prediction:** Decision Tree & Logistic Regression  
 - 🔗 **Backtest any rule-based strategy**  
 - 📢 **Smart alerts via Google Sheets and Telegram (optional)**  
