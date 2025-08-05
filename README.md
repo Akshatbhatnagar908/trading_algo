@@ -33,6 +33,7 @@ quick_demo()
 **Sample Output:**
 
 ================================================================================
+
 ALGO-TRADING SYSTEM RESULTS SUMMARY
 
 RELIANCE.NS
