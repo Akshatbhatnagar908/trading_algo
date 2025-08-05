@@ -1,0 +1,20 @@
+{
+  "RELIANCE.NS": {
+    "total_trades": 1,
+    "win_ratio": 0.0,
+    "total_return": -1.6086823807162531,
+    "ml_accuracy": 0.425531914893617
+  },
+  "TCS.NS": {
+    "total_trades": 2,
+    "win_ratio": 50.0,
+    "total_return": 34.36813224878601,
+    "ml_accuracy": 0.5319148936170213
+  },
+  "INFY.NS": {
+    "total_trades": 2,
+    "win_ratio": 0.0,
+    "total_return": 10.015191550275638,
+    "ml_accuracy": 0.5319148936170213
+  }
+}
