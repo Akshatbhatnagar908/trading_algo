@@ -34,16 +34,27 @@ quick_demo()
 
 ================================================================================
 ALGO-TRADING SYSTEM RESULTS SUMMARY
+
 RELIANCE.NS
+
 Total Trades: 1
+
 Win Ratio: 0.00%
+
 Total Return: -1.61%
+
 Buy & Hold Return: -3.52%
+
 Final Portfolio Value: ₹98,391.32
+
 ML Model Accuracy: 0.4255
+
 Next Day Prediction: UP ⬆️ (1.00)
+
 Current RSI: 28.57
+
 Current Signal: SELL 🔴
+
 ...
 
 ---
